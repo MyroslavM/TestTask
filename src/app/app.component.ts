@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {LogoService} from "./logo/logo.service";
+import {Logo} from "./logo/logo.module";
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'TestTask';
+
+
+
 }
